@@ -105,6 +105,7 @@ function colorGame() {
       document.querySelector("P").textContent = "";
       pic.classList.remove("size");
       guessBtn.disabled = false;
+      location.reload();
     }, 2000);
   } else {
     dialogueM.innerText = "Sorry your guess was wrong!!!";
